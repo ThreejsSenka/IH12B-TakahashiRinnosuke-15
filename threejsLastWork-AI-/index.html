@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Dream Engine</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="hud">
+      <h1>AI Dream Engine</h1>
+      <p>Neural / Light / Thought / Bloom</p>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item"><span class="dot dot-core"></span> core</div>
+      <div class="legend-item"><span class="dot dot-node"></span> node</div>
+      <div class="legend-item"><span class="dot dot-flow"></span> thought</div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
