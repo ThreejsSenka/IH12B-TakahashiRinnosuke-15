@@ -1,0 +1,25 @@
+{
+	"name": "ih12b-takahashirinnosuke-15",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"dev": "vite"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ThreejsSenka/IH12B-TakahashiRinnosuke-15.git"
+	},
+	"keywords": [],
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/ThreejsSenka/IH12B-TakahashiRinnosuke-15/issues"
+	},
+	"homepage": "https://github.com/ThreejsSenka/IH12B-TakahashiRinnosuke-15#readme",
+	"dependencies": {
+		"three": "^0.186.1"
+	},
+	"devDependencies": {
+		"vite": "^8.3.1"
+	}
+}
